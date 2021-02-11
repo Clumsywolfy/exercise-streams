@@ -11,7 +11,8 @@ import java.util.stream.Collectors;
 class Streams {
 
     List<String> filterStringsShorterThanThreeCharacters(List<String> input) {
-        // TODO: implement
+        input.stream()
+                .filter(string -> string.length() < 3);
         return input;
     }
 
