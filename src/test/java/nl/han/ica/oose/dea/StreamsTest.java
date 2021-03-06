@@ -48,7 +48,7 @@ class StreamsTest {
     @Test
     void test3AFindShortestString() {
         // Arrange
-        List<String> input = asList("Welcome", "to", "Java", "8", "Streams");
+        List<String> input = asList("Welcome", "to", "java", "8", "Streams");
 
         // Act
         String foundString = sut.findShortestString(input);
